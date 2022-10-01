@@ -13,7 +13,8 @@
   browser.runtime.onMessage.addListener((message) => {
     if (message.command === "freeify") {
       console.log('received freeify message');
-      document.body.style.border = "5px solid red";
+      document.documentElement.style.overflow = "scroll";
+      document.getElementById("layers").remove();
       console.log('updated');
     }
   });
