@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "FreeTwitter",
+  "version": "1.0",
+
+  "description": "FreeTwitter",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+	"permissions": [
+		"activeTab"
+	],
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "FreeTwitter",
+    "default_popup": "popup/execute.html"
+  }
+}
