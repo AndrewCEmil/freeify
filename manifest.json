@@ -1,10 +1,10 @@
 {
 
   "manifest_version": 2,
-  "name": "FreeTwitter",
+  "name": "Freeify",
   "version": "1.0",
 
-  "description": "FreeTwitter",
+  "description": "Remove the twitter blocker",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -16,7 +16,7 @@
 
   "browser_action": {
     "default_icon": "icons/beasts-32.png",
-    "default_title": "FreeTwitter",
+    "default_title": "Freeify",
     "default_popup": "popup/execute.html"
   }
 }
